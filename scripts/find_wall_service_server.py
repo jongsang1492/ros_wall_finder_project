@@ -72,7 +72,7 @@ class FindWallServer:
         move.angular.z = 0.0
         self.cmd_pub.publish(move)
 
-        rospy.loginfo("✅ Wall alignment complete. wallfound = True")
+        rospy.loginfo("Wall alignment complete. wallfound = True")
         return FindWallResponse(wallfound=True)
 
 if __name__ == '__main__':
