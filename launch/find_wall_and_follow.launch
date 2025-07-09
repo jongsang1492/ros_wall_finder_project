@@ -1,0 +1,4 @@
+<launch>
+  <node name="find_wall_service_server" pkg="find_wall_pkg" type="find_wall_service_server.py" output="screen"/>
+  <node name="wall_follower" pkg="find_wall_pkg" type="wall_following_node.py" output="screen"/>
+</launch>
